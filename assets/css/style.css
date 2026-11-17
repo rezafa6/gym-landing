@@ -153,6 +153,7 @@ body {
   line-height: 1.9;
   -webkit-font-smoothing: antialiased;
   transition: color .25s, background-color .25s;
+  overflow-x: hidden !important ;
 }
 
 body.dialog-open {
@@ -3645,8 +3646,8 @@ form[aria-busy="true"] .submit-button {
     width: 40px;
     height: 40px;
     min-width: 40px;
-    inset-inline-end: 12px;
-    inset-block-end: 12px;
+    inset-inline-end: 16px;
+    inset-block-end: 16px;
   }
 
   .dialog-heading h2 {
@@ -3696,6 +3697,10 @@ form[aria-busy="true"] .submit-button {
     height: 440px;
   }
 
+  .hero::before {
+  display: none;
+}
+
   .photo-label {
     inset-inline-end: 15px;
     font-size: 9px;
@@ -3704,6 +3709,8 @@ form[aria-busy="true"] .submit-button {
   .hero-photo-caption>strong {
     font-size: 29px;
   }
+
+  
 
   .workout-card {
     padding: 14px 12px;
@@ -3764,6 +3771,10 @@ form[aria-busy="true"] .submit-button {
 
   .strength-content h3 {
     font-size: 31px;
+  }
+
+  .service-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .service-weight p,
@@ -3916,7 +3927,7 @@ form[aria-busy="true"] .submit-button {
   }
 }
 
-@media print {
+/* @media print {
 
   .site-header,
   .reading-progress,
@@ -3947,7 +3958,7 @@ form[aria-busy="true"] .submit-button {
   .form-card {
     break-inside: avoid;
   }
-}
+} */
 
 .coach-card:nth-child(2) .coach-portrait>img {
   object-position: 72% center;
@@ -3959,4 +3970,11 @@ form[aria-busy="true"] .submit-button {
 
 .hero-photo.has-image-fallback .photo-side-note {
   display: none;
+}
+
+ 
+@media screen and (max-width: 450px) {
+  .sm-d-none {
+    display: none !important;
+  }
 }
