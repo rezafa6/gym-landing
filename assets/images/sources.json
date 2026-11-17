@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "url": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1400&q=85",
+    "file": "hero.jpg",
+    "label": "ورزشکار در حال تمرین با هالتر",
+    "source": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e"
+  },
+  "strength": {
+    "url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1000&q=85",
+    "file": "strength.jpg",
+    "label": "تمرین قدرتی با هالتر",
+    "source": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438"
+  },
+  "gym": {
+    "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=85",
+    "file": "gym.jpg",
+    "label": "فضای روشن باشگاه و تجهیزات بدنسازی",
+    "source": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48"
+  },
+  "nutrition": {
+    "url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+    "file": "nutrition.jpg",
+    "label": "بشقاب رنگارنگ سبزیجات و مواد غذایی متنوع",
+    "source": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+  },
+  "coach-1": {
+    "url": "https://images.unsplash.com/photo-1598268030450-7a476f602bf6?auto=format&fit=crop&w=800&q=85",
+    "file": "coach-1.jpg",
+    "label": "تصویر استوک یک مربی مرد در فضای ورزشی",
+    "source": "https://unsplash.com/photos/nR7RzE0OBI0"
+  },
+  "coach-2": {
+    "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=85",
+    "file": "coach-2.jpg",
+    "label": "تصویر استوک یک مربی زن در لباس ورزشی",
+    "source": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b"
+  },
+  "coach-3": {
+    "url": "https://images.unsplash.com/photo-1661439193765-392d81462003?auto=format&fit=crop&w=800&q=85",
+    "file": "coach-3.jpg",
+    "label": "تصویر استوک مربی در فضای تمرین",
+    "source": "https://unsplash.com/photos/kkVAhFEZCWk"
+  }
+}
